@@ -1,0 +1,62 @@
+@import "utilities.css";
+
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+  --secondary: #070606;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background-color: var(--pure);
+  position: fixed;
+  width: 100vw;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%); */
+}
+
+.container {
+  max-width: 100vw;
+  padding: 0 15px;
+  margin: 0 20px;
+}
+
+header nav {
+  padding: 0.5rem 0;
+}
+
+header nav .branding {
+  margin-right: 3rem;
+}
+
+header nav .left a {
+  color: var(--dark);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+header nav .left a:hover {
+  color: var(--primary);
+}
+
+.section {
+  background-color: var(--ternary);
+}
