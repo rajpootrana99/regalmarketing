@@ -126,7 +126,7 @@ header nav .left a:hover {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 .section-heading {
@@ -148,6 +148,7 @@ section {
 }
 
 section.work {
+  padding: 6rem 0;
   background: var(--pure);
 }
 
@@ -255,13 +256,13 @@ section.about .about-me-img {
   margin-right: 30px;
 }
 
-section.about h1 {
+section.about .news-title {
   margin-bottom: 1rem;
   font-size: 1.6rem;
   font-weight: 400;
 }
 
-section.about h1 span {
+section.about .news-title span {
   color: var(--primary);
 }
 
@@ -272,7 +273,7 @@ section.about h3 {
   font-weight: 400;
 }
 
-section.about p {
+section.about .news-body {
   font-family: "Lato", sans-serif;
   color: var(--ternary);
   line-height: 1.9;
@@ -499,6 +500,11 @@ form button .fas {
   color: #ccc;
 }
 
+form button .fas:hover {
+  font-size: 17px;
+  color: var(--primary);
+}
+
 .social-icons .fab {
   width: 40px;
   height: 40px;
@@ -510,6 +516,12 @@ form button .fas {
   background: var(--pure);
   margin-right: 15px;
   cursor: pointer;
+}
+
+.social-icons .fab:hover {
+  background: var(--primary);
+  font-size: 22px;
+  /* color: var(--pure); */
 }
 
 hr {
