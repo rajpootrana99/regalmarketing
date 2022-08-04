@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <title>Regal Marketing | Home</title>
@@ -24,66 +25,53 @@
     <script src="https://kit.fontawesome.com/2e2b578872.js"></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="flex items-center justify-between">
-          <div class="left flex items-center">
-            <div class="branding">
-              <img src="images/logo.png" alt="" width="60px" />
-            </div>
-            <div>
-              <a href="#">About</a>
-              <a href="#">Product & Services</a>
-              <a href="#">Business Insights</a>
-              <a href="#">Videos</a>
-              <a href="#">Careers</a>
-              <a href="#">Contact</a>
-            </div>
-          </div>
-        </nav>
+    <header style="background-image: url('images/new-header.png')">
+      <nav id="navbar">
+        <img
+          src="images/logo-secondary.png"
+          id="logo"
+          class="logo"
+          data-aos="zoom-out"
+        />
+        <ul id="menu">
+          <li data-aos="zoom-out"><a href="">About</a></li>
+          <li data-aos="zoom-out"><a href="">Products & Services</a></li>
+          <li data-aos="zoom-out"><a href="">Business Insights</a></li>
+          <li data-aos="zoom-out"><a href="">Videos</a></li>
+          <li data-aos="zoom-out"><a href="">Careers</a></li>
+          <li data-aos="zoom-out"><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <h1 data-aos="fade-up">You have got questions, we have got search.</h1>
+        <form data-aos="zoom-in">
+          <input type="text" placeholder="&#x270e; Enter keyword" />
+          <i class="fas fa-search"></i>
+        </form>
       </div>
     </header>
-
-    <!-- Hero slider -->
-    <div class="carousel-container">
-      <div class="carousel">
-        <div class="item main">
-          <img src="images/regal-empire-hero.jpg" alt="mountain" />
-        </div>
-        <div class="item">
-          <img src="images/eighteen-hero.jpg" alt="beach" />
-        </div>
-        <div class="item">
-          <img src="images/new-metro-city-hero.jpg" alt="cityscape" />
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="prev nav-btn"><</div>
-        <div class="next nav-btn">></div>
-      </div>
-    </div>
 
     <!--Our Work Section-->
     <section class="work">
       <div class="container">
-        <h1 class="section-heading">Entice with Benefits</h1>
-        <p>Ultra modern and cost effective projects</p>
+        <h1 class="section-heading" data-aos="fade-up">Feature Products</h1>
+        <p data-aos="fade-up">Ultra modern and cost effective projects</p>
         <div class="card-wrapper">
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="overlay">
               <span>Discovery Garden</span>
               <a href="#">Islamabad</a>
             </div>
             <img src="images/featured-products-1.jpg" alt="" />
           </div>
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="overlay">
               <span>Kingdom Valley</span>
               <a href="#">Islamabad</a>
             </div>
             <img src="images/featured-products-2.jpg" alt="" />
           </div>
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="overlay">
               <span>Park View City</span>
               <a href="#">Islamabad</a>
@@ -96,34 +84,38 @@
 
     <section class="services">
       <div class="container">
-        <h1 class="section-heading">Providing Solutions</h1>
-        <p>
+        <h1 class="section-heading" data-aos="fade-up">Providing Solutions</h1>
+        <p data-aos="fade-up">
           Standing close to our Customers, as we are ready to serve you with
           improved Solutions
         </p>
         <div class="card-wrapper">
-          <div class="card">
-            <img src="images/asset-management.png" alt="" />
-            <h2>Asset Management</h2>
-            <p>
+          <div class="card" data-aos="zoom-in">
+            <img src="images/asset-management.png" alt="" data-aos="ease-out" />
+            <h2 data-aos="fade-up">Asset Management</h2>
+            <p data-aos="fade-up">
               Managing workspaces, retail, residential or industrial property,
               efficiently and cost-effectively, handling the loops and enhancing
               the worth.
             </p>
           </div>
-          <div class="card">
-            <img src="images/merge-your-property.png" alt="" />
-            <h2>Merge Your Property</h2>
-            <p>
+          <div class="card" data-aos="zoom-in">
+            <img
+              src="images/merge-your-property.png"
+              alt=""
+              data-aos="ease-out"
+            />
+            <h2 data-aos="fade-up">Merge Your Property</h2>
+            <p data-aos="fade-up">
               Trade your assets with us. You might be able to build a larger and
               more valuable property than you could have on each parcel
               separately.
             </p>
           </div>
-          <div class="card">
-            <img src="images/expert-opinions.png" alt="" />
-            <h2>Expert Opinions</h2>
-            <p>
+          <div class="card" data-aos="zoom-in">
+            <img src="images/expert-opinions.png" alt="" data-aos="ease-out" />
+            <h2 data-aos="fade-up">Expert Opinions</h2>
+            <p data-aos="fade-up">
               There are many variations of passages of but the majority have
               suffered alteration in some form.
             </p>
@@ -136,16 +128,23 @@
     <!--About Section-->
     <section class="about">
       <div class="container">
-        <h1 class="section-heading">Insights</h1>
-        <p>Are you informed? More news more often move closer to the world</p>
+        <h1 class="section-heading" data-aos="fade-up">Insights</h1>
+        <p data-aos="fade-up">
+          Are you informed? More news more often move closer to the world
+        </p>
         <div class="container flex items-center">
           <div class="flex-1">
-            <img class="about-me-img" src="images/updated-news.jpg" alt="" />
+            <img
+              class="about-me-img"
+              src="images/updated-news.jpg"
+              alt=""
+              data-aos="zoom-in"
+            />
           </div>
           <div class="flex-1">
-            <h3>Offices | 02 August 2022</h3>
-            <h1 class="news-title">Business <span>Insights</span></h1>
-            <p class="news-body">
+            <h3 data-aos="fade-bottom">Offices | 02 August 2022</h3>
+            <h1 class="news-title" data-aos="fade-bottom">Business Insights</h1>
+            <p class="news-body" data-aos="fade-bottom">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -155,73 +154,77 @@
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat
             </p>
-            <button class="btn btn-secondary">EXPLORE ALL NEWS</button>
+            <button class="btn btn-secondary" data-aos="fade-up">
+              EXPLORE ALL NEWS
+            </button>
           </div>
         </div>
       </div>
     </section>
 
     <!--Our Blog Section-->
-    <section class="blog">
+    <section class="blog" data-aos="fade-up">
       <div class="container">
-        <h1 class="section-heading">WeBlog</h1>
-        <p>
+        <h1 class="section-heading" data-aos="fade-up">WeBlog</h1>
+        <p data-aos="fade-up">
           We smash you with the information that will make your investment
           easier
         </p>
         <div class="card-wrapper">
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="img-wrapper">
               <img src="images/advantages-of-investment.jpeg" />
             </div>
             <div class="card-content">
               <a href="#">
-                <h1>Advantages of Investment in Real Estate</h1>
+                <h1 data-aos="fade-up">
+                  Advantages of Investment in Real Estate
+                </h1>
               </a>
-              <span>August 29, 2022</span>
-              <p>
+              <span data-aos="fade-up">August 29, 2022</span>
+              <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <a href="#" class="read-more">Read More</a>
+              <a href="#" class="read-more" data-aos="fade-up">Read More</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="img-wrapper">
               <img src="images/early-bird.png" />
             </div>
             <div class="card-content">
               <a href="#">
-                <h1>Early Bird Balloting</h1>
+                <h1 data-aos="fade-up">Early Bird Balloting</h1>
               </a>
-              <span>August 29, 2022</span>
-              <p>
+              <span data-aos="fade-up">August 29, 2022</span>
+              <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <a href="#" class="read-more">Read More</a>
+              <a href="#" class="read-more" data-aos="fade-up">Read More</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card" data-aos="zoom-in">
             <div class="img-wrapper">
               <img src="images/golden-investment.jpeg" />
             </div>
             <div class="card-content">
               <a href="#">
-                <h1>A Golden Investment Opportunity</h1>
+                <h1 data-aos="fade-up">A Golden Investment Opportunity</h1>
               </a>
-              <span>August 29, 2022</span>
-              <p>
+              <span data-aos="fade-up">August 29, 2022</span>
+              <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
-              <a href="#" class="read-more">Read More</a>
+              <a href="#" class="read-more" data-aos="fade-up">Read More</a>
             </div>
           </div>
         </div>
@@ -231,21 +234,21 @@
     <!--Reviews Section-->
     <section class="reviews">
       <div class="container">
-        <h1 class="section-heading">Worthy Clients</h1>
-        <p>The Customer is always Right</p>
-        <div class="testimonial">
+        <h1 class="section-heading" data-aos="fade-up">Worthy Clients</h1>
+        <p data-aos="fade-up">The Customer is always Right</p>
+        <div class="testimonial" data-aos="zoom-in">
           <div class="testimonial-text">
             <div class="user-text">
               <i class="fa fa-quote-left"></i>
-              <p>
+              <p data-aos="fade-up">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam
               </p>
-              <span>Momina Abid, Writer</span>
+              <span data-aos="fade-up">Momina Abid, Writer</span>
             </div>
-            <div class="user-text">
-              <i class="fa fa-quote-left"></i>
+            <div class="user-text" data-aos="fade-up">
+              <i class="fa fa-quote-left" data-aos="fade-up"></i>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -286,26 +289,31 @@
               src="images/lady.png"
               class="user-pic"
               onclick="showReview()"
+              data-aos="fade-up"
             />
             <img
               src="images/lady.png"
               class="user-pic"
               onclick="showReview()"
+              data-aos="fade-up"
             />
             <img
               src="images/lady.png"
               class="user-pic active-pic"
               onclick="showReview()"
+              data-aos="fade-up"
             />
             <img
               src="images/lady.png"
               class="user-pic"
               onclick="showReview()"
+              data-aos="fade-up"
             />
             <img
               src="images/lady.png"
               class="user-pic"
               onclick="showReview()"
+              data-aos="fade-up"
             />
           </div>
         </div>
@@ -315,51 +323,59 @@
     <footer>
       <div class="row">
         <div class="col">
-          <img src="images/footer-logo.png" class="footer-logo" />
-          <p>
+          <img
+            src="images/footer-logo.png"
+            class="footer-logo"
+            data-aos="fade-up"
+          />
+          <p data-aos="fade-up">
             Subscribe Easy Tutorials Youtube Channel to watch more videos on
             website development and press the Bell icon to get immediate
             notification of latest videos.
           </p>
         </div>
         <div class="col">
-          <h3>
+          <h3 data-aos="fade-up">
             Office
-            <div class="underline"><span></span></div>
+            <div class="underline" data-aos="fade-up"><span></span></div>
           </h3>
-          <p>1st Floor, Zamzam Arcade, Plaza 1-A</p>
-          <p>Street # 39, Alia Market, G-13/2, Islamabad</p>
-          <p class="email-id">info@regalmarketing.com.pk</p>
-          <h4>+92 - 334 9000007</h4>
+          <p data-aos="fade-up">1st Floor, Zamzam Arcade, Plaza 1-A</p>
+          <p data-aos="fade-up">Street # 39, Alia Market, G-13/2, Islamabad</p>
+          <p class="email-id" data-aos="fade-up">info@regalmarketing.com.pk</p>
+          <h4 data-aos="fade-up">+92 - 334 9000007</h4>
         </div>
         <div class="col">
-          <h3>
+          <h3 data-aos="fade-up">
             Links
-            <div class="underline"><span></span></div>
+            <div class="underline" data-aos="fade-up"><span></span></div>
           </h3>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Products & Services</a></li>
-            <li><a href="">Business Insights</a></li>
-            <li><a href="">Videos</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Contact</a></li>
+            <li data-aos="fade-up"><a href="">Home</a></li>
+            <li data-aos="fade-up"><a href="">About</a></li>
+            <li data-aos="fade-up"><a href="">Products & Services</a></li>
+            <li data-aos="fade-up"><a href="">Business Insights</a></li>
+            <li data-aos="fade-up"><a href="">Videos</a></li>
+            <li data-aos="fade-up"><a href="">Careers</a></li>
+            <li data-aos="fade-up"><a href="">Contact</a></li>
           </ul>
         </div>
         <div class="col">
-          <h3>
+          <h3 data-aos="fade-up">
             Newsletter
-            <div class="underline"><span></span></div>
+            <div class="underline" data-aos="fade-up"><span></span></div>
           </h3>
           <form>
-            <i class="far fa-envelope"></i>
-            <input type="email" placeholder="Enter you email" />
+            <i class="far fa-envelope" data-aos="fade-right"></i>
+            <input
+              type="email"
+              placeholder="Enter you email"
+              data-aos="fade-up"
+            />
             <button type="submit">
-              <i class="fas fa-arrow-right"></i>
+              <i class="fas fa-arrow-right" data-aos="fade-left"></i>
             </button>
           </form>
-          <div class="social-icons">
+          <div class="social-icons" data-aos="fade-up">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-whatsapp"></i>
@@ -367,11 +383,20 @@
           </div>
         </div>
       </div>
-      <hr />
-      <p class="copyright">
+      <hr data-aos="zoom-in" data-aos-offset="40" />
+      <p class="copyright" data-aos="zoom-in" data-aos-offset="50">
         Merge your property with Regal Marketing - All Rights Reserved
       </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1000,
+        easing: "ease",
+      });
+    </script>
 
     <script
       src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"

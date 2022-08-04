@@ -12,3 +12,17 @@ function showReview() {
   userPics[i].classList.add("active-pic");
   userTexts[i].classList.add("active-text");
 }
+
+var navbar = document.getElementById("navbar");
+var menu = document.getElementById("menu");
+var logo = document.getElementById("logo");
+
+window.onscroll = function () {
+  if (window.pageYOffset >= menu.offsetTop) {
+    navbar.classList.add("sticky");
+    logo.src = "images/logo.png";
+  } else {
+    navbar.classList.remove("sticky");
+    logo.src = "images/logo-secondary.png";
+  }
+};
