@@ -30,4 +30,6 @@ function nextImage(direction) {
     images[i].classList.remove("main");
   }
   images[index].classList.add("main");
+  setTimeout(nextImage, 5000);
 }
+setTimeout(nextImage, 5000);
