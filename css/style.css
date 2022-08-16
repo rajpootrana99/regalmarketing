@@ -715,6 +715,64 @@ section.our-team .container {
   color: var(--dark);
 }
 
+section.ceo-msg {
+  background: var(--light);
+}
+
+section.ceo-msg .section-heading {
+  color: var(--pure);
+}
+
+section.ceo-msg .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+section.ceo-msg .card-wrapper .card {
+  background: var(--pure);
+}
+
+section.ceo-msg .card-wrapper .card .img-wrapper img {
+  width: 100%;
+}
+
+section.ceo-msg .card-wrapper .card .card-content {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+section.ceo-msg .card-wrapper .card .card-content h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+section.ceo-msg .card-wrapper .card .card-content a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+section.ceo-msg .card-wrapper .card .card-content a:hover {
+  color: var(--primary);
+}
+
+section.ceo-msg .card-wrapper .card .card-content span {
+  color: var(--ternary);
+  font-size: 0.8rem;
+}
+
+section.ceo-msg .card-wrapper .card .card-content p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.ceo-msg .card-wrapper .card .card-content a.read-more {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 700px) {
   footer {
     bottom: unset;
