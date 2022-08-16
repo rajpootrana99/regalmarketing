@@ -650,7 +650,7 @@ hr {
 }
 
 section.our-team {
-  background: var(--light);
+  background: var(--pure);
 }
 
 section.our-team .container {
@@ -672,7 +672,7 @@ section.our-team .container {
   cursor: pointer;
   transition: 0.4s;
   box-sizing: border-box;
-  background: var(--pure);
+  background: var(--light);
   border-radius: 10px;
 }
 
