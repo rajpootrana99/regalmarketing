@@ -203,7 +203,7 @@ nav.sticky .logo {
   max-width: 900px;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: var(--primary);
+  color: var(--pure);
 }
 
 .about-us h1 {
