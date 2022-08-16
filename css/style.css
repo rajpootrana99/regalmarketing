@@ -773,6 +773,48 @@ section.ceo-msg .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
 }
 
+section.mission-stmt {
+  background: var(--light);
+}
+
+section.mission-stmt .card-wrapper {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
+
+section.mission-stmt .card-wrapper .card {
+  background: var(--pure);
+  padding: 3rem 2rem;
+  position: relative;
+  padding-top: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+section.mission-stmt .card-wrapper .card img {
+  width: 250px;
+}
+
+section.mission-stmt .card-wrapper .card h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section.mission-stmt .card-wrapper .card p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  line-height: 1.6;
+}
+
 @media (max-width: 700px) {
   footer {
     bottom: unset;
