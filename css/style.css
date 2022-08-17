@@ -207,18 +207,12 @@ nav.sticky .logo {
 }
 
 .about-us h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
-.container {
-  max-width: 100vw;
-  padding: 0 15px;
-  margin: 0 20px;
-}
-
 section {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
 }
 
 .section-heading {
