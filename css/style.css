@@ -808,6 +808,50 @@ section.mission-stmt .card-wrapper .card p {
   line-height: 1.6;
 }
 
+.contact-us {
+  background-color: var(--light);
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.contact-us .title {
+  font-size: 2rem;
+}
+.contact-us .title h2 {
+  font-weight: 500;
+}
+
+.form {
+  grid-area: form;
+}
+
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+
+.contact {
+  padding: 40px;
+  background: var(--pure);
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+.box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas:
+    "form info"
+    "form map";
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
 @media (max-width: 700px) {
   footer {
     bottom: unset;
