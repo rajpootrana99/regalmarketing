@@ -552,7 +552,7 @@ ul li a {
   color: var(--pure);
 }
 
-form {
+form.footer-form {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
@@ -850,6 +850,76 @@ section.mission-stmt .card-wrapper .card p {
     "form map";
   grid-gap: 20px;
   margin-top: 20px;
+}
+
+.contact h3 {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.form-box {
+  position: relative;
+  width: 100%;
+}
+
+.form-box .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.form-box .row100 .input-box {
+  width: 100%;
+}
+
+.input-box span {
+  color: var(--primary);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.input-box input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid var(--ternary);
+  color: var(--dark);
+}
+
+.input-box textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid var(--ternary);
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 10px;
+  color: var(--dark);
+}
+
+.input-box input[type="submit"] {
+  background: var(--primary);
+  color: var(--pure);
+  border: none;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+
+.input-box ::placeholder {
+  color: var(--ternary);
+  font-size: 0.8em;
 }
 
 @media (max-width: 700px) {
