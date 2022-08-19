@@ -922,6 +922,71 @@ section.mission-stmt .card-wrapper .card p {
   font-size: 0.8em;
 }
 
+.info {
+  background: #0e3959;
+}
+
+.info h3 {
+  color: var(--pure);
+}
+
+.info .infoBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info .infoBox div span {
+  min-width: 40px;
+  height: 40px;
+  color: var(--pure);
+  background: #18b7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info .infoBox div p {
+  color: var(--pure);
+}
+
+.info .infoBox div a {
+  color: var(--pure);
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.sci {
+  margin-top: 40px;
+  display: flex;
+}
+
+.sci li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.sci li a {
+  color: var(--pure);
+  font-size: 2em;
+  color: #ccc;
+}
+
+.sci li a:hover {
+  color: var(--pure);
+}
+
+.map {
+  padding: 0;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 700px) {
   footer {
     bottom: unset;
@@ -934,6 +999,39 @@ section.mission-stmt .card-wrapper .card p {
   .col:nth-child(2),
   .col:nth-child(3) {
     flex-basis: 100%;
+  }
+
+  .contact-us {
+    padding: 20px;
+  }
+
+  .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "form" "info" "map";
+  }
+
+  .map {
+    min-height: 300px;
+  }
+
+  .form-box .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .contact {
+    padding: 30px;
+  }
+
+  .map {
+    min-height: 300px;
+    padding: 30px;
   }
 }
 
