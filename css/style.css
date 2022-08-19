@@ -853,7 +853,7 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .contact h3 {
-  color: var(--primary);
+  color: var(--dark);
   font-weight: 500;
   font-size: 1.4rem;
   margin-top: 10px;
@@ -881,7 +881,7 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .input-box span {
-  color: var(--primary);
+  color: var(--dark);
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 500;
