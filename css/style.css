@@ -301,6 +301,7 @@ section.services .card-wrapper .card {
   position: relative;
   padding-top: 5rem;
   text-align: center;
+  cursor: pointer;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
