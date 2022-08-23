@@ -1049,6 +1049,121 @@ section.mission-stmt .card-wrapper .card p {
   padding: 10px;
 }
 
+.single-project {
+  background-color: var(--light);
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+
+.single-project .title {
+  font-size: 2rem;
+}
+.single-project .title h2 {
+  font-weight: 500;
+}
+
+.content {
+  grid-area: content;
+}
+
+.info {
+  grid-area: info;
+}
+
+.project {
+  padding: 40px;
+  background: var(--pure);
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+.project-box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.5fr 0.5fr;
+  grid-template-areas: "content info";
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.project h3 {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.form-box {
+  position: relative;
+  width: 100%;
+}
+
+.form-box .row50 {
+  display: flex;
+  gap: 20px;
+}
+
+.inquiry-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.form-box .row100 .inquiry-box {
+  width: 100%;
+}
+
+.inquiry-box span {
+  color: var(--dark);
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.inquiry-box input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid var(--ternary);
+  color: var(--dark);
+}
+
+.inquiry-box textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid var(--ternary);
+  resize: none;
+  min-height: 120px;
+  margin-bottom: 10px;
+  color: var(--dark);
+}
+
+.inquiry-box input[type="submit"] {
+  background: var(--primary);
+  color: var(--pure);
+  border: none;
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+
+.inquiry-box ::placeholder {
+  color: var(--ternary);
+  font-size: 0.8em;
+}
+
+.project-inquiry {
+  background: var(--pure);
+}
+
+.project-inquiry h3 {
+  color: var(--dark);
+}
+
 @media (max-width: 700px) {
   footer {
     bottom: unset;
