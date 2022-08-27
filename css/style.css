@@ -499,6 +499,65 @@ section.research .bar-line {
   margin-bottom: 1rem;
 }
 
+section.research-grid .card-wrapper {
+  /* margin-top: 2rem; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
+
+section.research-grid .card-wrapper .card {
+  background: var(--light);
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+section.research-grid .card-wrapper .card h2 {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+section.research-grid .card-wrapper .card p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  line-height: 1.6;
+}
+
+section.articles {
+  padding-left: 60px;
+}
+
+section.articles h1 {
+  color: var(--pure);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+section.articles p {
+  font-family: "Lato", sans-serif;
+  color: var(--pure);
+  letter-spacing: normal;
+  line-height: 1.9;
+  margin-bottom: 3rem;
+  width: 380px;
+}
+
+section.articles .bar-line {
+  width: 50px;
+  border: 1px solid var(--pure);
+  margin-bottom: 1rem;
+}
+
 .testimonial {
   width: 90%;
   max-width: 800px;
