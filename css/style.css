@@ -558,6 +558,66 @@ section.articles .bar-line {
   margin-bottom: 1rem;
 }
 
+section.blog-grid {
+  background: var(--light);
+  padding-bottom: 6rem;
+}
+
+section.blog-grid .section-heading {
+  color: var(--pure);
+}
+
+section.blog-grid .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+section.blog-grid .card-wrapper .card {
+  background: var(--pure);
+}
+
+section.blog-grid .card-wrapper .card .img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+section.blog-grid .card-wrapper .card .card-content {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+section.blog-grid .card-wrapper .card .card-content h1 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+section.blog-grid .card-wrapper .card .card-content a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+section.blog-grid .card-wrapper .card .card-content a:hover {
+  color: var(--primary);
+}
+
+section.blog-grid .card-wrapper .card .card-content span {
+  color: var(--ternary);
+  font-size: 0.8rem;
+}
+
+section.blog-grid .card-wrapper .card .card-content p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.blog-grid .card-wrapper .card .card-content a.read-more {
+  font-size: 0.8rem;
+}
+
 .testimonial {
   width: 90%;
   max-width: 800px;
