@@ -562,10 +562,6 @@ section.blog-grid {
   background: var(--light);
 }
 
-section.blog-grid .section-heading {
-  color: var(--pure);
-}
-
 section.blog-grid .card-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -615,6 +611,43 @@ section.blog-grid .card-wrapper .card .card-content p {
 
 section.blog-grid .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
+}
+
+section.news-grid {
+  background: var(--light);
+}
+
+section.news-grid .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+
+section.news-grid .card-wrapper .card {
+  background: var(--pure);
+}
+
+section.news-grid .card-wrapper .card .card-content {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+section.news-grid .card-wrapper .card .card-content span {
+  font-size: 0.9rem;
+}
+
+section.news-grid .card-wrapper .card .card-content h2 {
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
+
+section.news-grid .card-wrapper .card .card-content p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #ff0000;
 }
 
 .testimonial {
