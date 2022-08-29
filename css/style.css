@@ -641,13 +641,14 @@ section.news-grid .card-wrapper .card .card-content span {
 section.news-grid .card-wrapper .card .card-content h2 {
   font-size: 1.2rem;
   margin-top: 0.4rem;
+  margin-bottom: 1rem;
 }
 
-section.news-grid .card-wrapper .card .card-content p {
+section.news-grid .card-wrapper .card .card-content a {
   font-size: 0.9rem;
-  margin-top: 1rem;
   font-weight: bold;
   color: #ff0000;
+  text-decoration: none;
 }
 
 .testimonial {
