@@ -234,7 +234,7 @@ section {
 }
 
 section.work {
-  background: var(--pure);
+  background: var(--light);
 }
 
 section.work .card-wrapper {
@@ -281,6 +281,51 @@ section.work .card-wrapper .card .overlay a {
 section.work .card-wrapper .card img {
   height: 100%;
   width: 100%;
+}
+
+section.products {
+  background: var(--pure);
+}
+
+section.products .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
+
+section.products .card-wrapper .card {
+  background: var(--light);
+  padding: 3rem 2rem;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+section.products .card-wrapper .card h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+section.products .card-wrapper .card p {
+  font-family: "Lato", sans-serif;
+  color: var(--ternary);
+  line-height: 1.6;
+}
+
+section.products .card-wrapper .card:hover {
+  background: var(--dark);
+}
+
+section.products .card-wrapper .card:hover h2,
+section.products .card-wrapper .card:hover p {
+  color: var(--pure);
 }
 
 section.services {
@@ -425,6 +470,113 @@ section.blog .card-wrapper .card .card-content p {
 
 section.blog .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
+}
+
+section.contact {
+  position: relative;
+  background-color: var(--dark);
+  padding: 50px 100px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.contact .section-heading {
+  color: var(--pure);
+}
+
+section.contact .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+section.contact .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+section.contact .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+section.contact .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: var(--pure);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+section.contact .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: var(--pure);
+  flex-direction: column;
+  font-weight: 300;
+}
+
+section.contact .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: var(--primary);
+}
+
+section.contact .contactForm {
+  width: 50%;
+  padding: 40px;
+  background: var(--pure);
+}
+
+section.contact .contactForm h2 {
+  font-size: 30px;
+  color: var(--ternary);
+  font-weight: 500;
+}
+
+section.contact .contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+section.contact .contactForm .inputBox input,
+section.contact .contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid var(--ternary);
+  outline: none;
+  resize: none;
+}
+
+section.contact .contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: var(--ternary);
+}
+
+section.contact .contactForm .inputBox input:focus ~ span,
+section.contact .contactForm .inputBox input:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
 }
 
 section.business-insights {
