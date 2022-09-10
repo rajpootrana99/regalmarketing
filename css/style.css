@@ -495,14 +495,14 @@ section.contact .content {
 }
 
 section.contact .contactInfo {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 section.contact .contactInfo .box {
   position: relative;
-  padding: 20px 0;
+  padding: 20px 0px;
   display: flex;
 }
 
@@ -532,14 +532,14 @@ section.contact .contactInfo .box .text h3 {
 }
 
 section.contact .contactForm {
-  width: 50%;
+  width: 100%;
   padding: 40px;
   background: var(--pure);
 }
 
 section.contact .contactForm h2 {
   font-size: 30px;
-  color: var(--ternary);
+  color: var(--dark);
   font-weight: 500;
 }
 
@@ -573,10 +573,22 @@ section.contact .contactForm .inputBox span {
 }
 
 section.contact .contactForm .inputBox input:focus ~ span,
-section.contact .contactForm .inputBox input:valid ~ span {
+section.contact .contactForm .inputBox input:valid ~ span,
+section.contact .contactForm .inputBox textarea:focus ~ span,
+section.contact .contactForm .inputBox textarea:valid ~ span {
   color: #e91e63;
   font-size: 12px;
   transform: translateY(-20px);
+}
+
+section.contact .contactForm .inputBox input[type="submit"] {
+  width: 100px;
+  background: var(--primary);
+  color: var(--pure);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }
 
 section.business-insights {
@@ -1577,6 +1589,19 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 @media (max-width: 700px) {
+  section.contact {
+    padding: 50px;
+  }
+
+  section.contact .container .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.contact .container .contactInfo {
+    margin-bottom: 40px;
+  }
+
   footer {
     bottom: unset;
   }
