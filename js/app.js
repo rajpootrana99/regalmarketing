@@ -1,3 +1,9 @@
+let subMenu = document.getElementById("subMenu");
+
+function toggleMenu() {
+  subMenu.classList.toggle("open-menu");
+}
+
 let userTexts = document.getElementsByClassName("user-text");
 let userPics = document.getElementsByClassName("user-pic");
 function showReview() {
