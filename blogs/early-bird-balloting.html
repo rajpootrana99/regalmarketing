@@ -38,6 +38,10 @@
       "
     >
       <nav id="navbar">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </label>
         <a href="../home.html"
           ><img
             src="../images/logo-secondary.png"
@@ -50,8 +54,41 @@
             <a href="../about.html">About Us</a>
           </li>
           <li data-aos="zoom-out">
-            <a href="../projects.html">Projects</a>
+            <a href="projects.html">Projects</a>
+            <i
+              class="fa fa-angle-down"
+              style="margin: 5px; cursor: pointer"
+              onclick="toggleMenu()"
+            ></i>
           </li>
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+              <a href="#" class="sub-menu-link">
+                <p>Eighteen</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>New Metro City Gujar Khan</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Blue World City Sports Valley</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Blue World Water Front District</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Park View City Islamabad</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Kingdom Valley</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Discovery Garden</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>1947 Housing</p>
+              </a>
+            </div>
+          </div>
           <li data-aos="zoom-out">
             <a href="../products.html">Products</a>
           </li>
