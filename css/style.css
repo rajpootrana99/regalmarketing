@@ -1799,6 +1799,7 @@ section.mission-stmt .card-wrapper .card p {
 
   .contact-us {
     padding: 20px;
+    width: 100%;
   }
 
   .box {
@@ -1821,13 +1822,10 @@ section.mission-stmt .card-wrapper .card p {
     width: 100%;
   }
 
-  .contact {
-    padding: 30px;
-  }
-
   .map {
+    width: 100%;
     min-height: 300px;
-    padding: 30px;
+    /* padding: 30px; */
   }
 
   .video-col {
