@@ -1379,6 +1379,7 @@ section.mission-stmt .card-wrapper .card p {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  line-break: anywhere;
 }
 
 .info .infoBox div span {
@@ -1816,10 +1817,12 @@ section.mission-stmt .card-wrapper .card p {
   }
 
   .contact-us {
-    padding: 20px;
+    padding: 2%;
   }
 
   .box {
+    display: flex !important;
+    flex-direction: column !important;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "form" "info" "map";
