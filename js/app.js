@@ -1,11 +1,22 @@
 let subMenu = document.getElementById("subMenu");
+var navbar = document.getElementById("navbar");
+var menu = document.getElementById("menu");
+var logo = document.getElementById("logo");
+let userTexts = document.getElementsByClassName("user-text");
+let userPics = document.getElementsByClassName("user-pic");
 
 function toggleMenu() {
   subMenu.classList.toggle("open-menu");
 }
 
-let userTexts = document.getElementsByClassName("user-text");
-let userPics = document.getElementsByClassName("user-pic");
+function showMenu() {
+  let nav = document.getElementsByTagName("nav");
+  console.log(nav.ul.li);
+  let ul = nav.getElementsByTagName("ul");
+  let lis = ul.getElementsByTagName("li");
+  console.log(lis);
+}
+
 function showReview() {
   //   console.log(event.target);
   for (userPic of userPics) {
@@ -18,10 +29,6 @@ function showReview() {
   userPics[i].classList.add("active-pic");
   userTexts[i].classList.add("active-text");
 }
-
-var navbar = document.getElementById("navbar");
-var menu = document.getElementById("menu");
-var logo = document.getElementById("logo");
 
 window.onscroll = function () {
   if (window.pageYOffset >= menu.offsetTop) {
