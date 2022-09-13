@@ -108,15 +108,15 @@ nav ul li a:hover {
 }
 
 .checkbtn {
-    position: unset;
-    right: 5%;
-    margin-right: 0px;
-    font-size: 30px;
-    color: var(--pure);
-    line-height: 80px;
-    cursor: pointer;
-    transition: 0.5s all;
-    display: none;
+  position: unset;
+  right: 5%;
+  margin-right: 0px;
+  font-size: 30px;
+  color: var(--pure);
+  line-height: 80px;
+  cursor: pointer;
+  transition: 0.5s all;
+  display: none;
 }
 
 #check {
@@ -223,7 +223,8 @@ nav.sticky {
   top: 0;
   left: 0;
   padding: 0px 8%;
-  background: linear-gradient(to right, #00093c, #2d0b00);
+  background: var(--dark);
+  /* background: linear-gradient(to right, #00093c, #2d0b00); */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -941,8 +942,8 @@ footer {
   width: 100%;
   position: relative;
   bottom: 0;
-  background: linear-gradient(to right, #00093c, #2d0b00);
-  /* background: var(--dark); */
+  /* background: linear-gradient(to right, #00093c, #2d0b00); */
+  background: var(--dark);
   color: var(--pure);
   padding-top: 70px;
   padding-bottom: 30px;
@@ -1669,7 +1670,8 @@ section.mission-stmt .card-wrapper .card p {
     top: 0;
     left: 0;
     padding: 5%;
-    background: linear-gradient(to right, #00093c, #2d0b00);
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background: var(--dark);
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -1703,13 +1705,12 @@ section.mission-stmt .card-wrapper .card p {
     transition: 0.2s all;
   }
 
-  .sub-menu-wrap{
+  .sub-menu-wrap {
     top: unset;
     left: unset;
     width: 100%;
     z-index: 1;
   }
-  
 
   #check:checked ~ ul {
     left: 0;
