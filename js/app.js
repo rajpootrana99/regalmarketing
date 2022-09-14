@@ -13,6 +13,7 @@ function toggleMenu() {
 let nav = document.querySelector("#navbar");
 let ul = document.querySelector("#navbar > ul");
 let lis = document.querySelectorAll("#navbar > ul > li");
+
 function showMenu() {
   if (ul.style.opacity == 1) {
     //Setting Menu Opacity Back to 0
