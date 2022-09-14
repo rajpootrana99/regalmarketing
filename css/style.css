@@ -1827,6 +1827,10 @@ section.mission-stmt .card-wrapper .card p {
     grid-template-areas: "form" "info" "map";
   }
 
+  .info .infoBox div a {
+    line-break: anywhere;
+  }
+
   .map {
     min-height: 300px;
   }
