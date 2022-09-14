@@ -45,8 +45,12 @@ header {
 
 .upper-header ul li a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--dark);
+}
+
+.upper-header ul li a:hover {
+  color: var(--primary);
 }
 
 nav {
