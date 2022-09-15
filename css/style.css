@@ -45,8 +45,9 @@ header {
 
 .upper-header ul li a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--dark);
+  font-size: 0.8rem;
 }
 
 .upper-header ul li a:hover {
