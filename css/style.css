@@ -1,7 +1,7 @@
 @import "utilities.css";
 
 :root {
-  --primary: #f9ae41;
+  --primary: #fbb040;
   --dark: #161616;
   --pure: #ffffff;
   --ternary: #898989;
@@ -26,32 +26,6 @@ header {
   height: 100vh;
   /* background-position: center;
   background-size: cover; */
-}
-
-.upper-header {
-  width: 100%;
-  background: var(--pure);
-  padding: 10px 250px;
-  text-align: right;
-}
-
-.upper-header ul li {
-  display: inline-block;
-  list-style: none;
-  justify-content: unset;
-  margin: 0px 10px;
-  color: var(--dark);
-}
-
-.upper-header ul li a {
-  text-decoration: none;
-  font-weight: 600;
-  color: var(--dark);
-  font-size: 0.8rem;
-}
-
-.upper-header ul li a:hover {
-  color: var(--primary);
 }
 
 nav {
@@ -512,6 +486,7 @@ section.blog .card-wrapper {
 
 section.blog .card-wrapper .card {
   background: var(--pure);
+  cursor: pointer;
 }
 
 section.blog .card-wrapper .card .img-wrapper img {
@@ -553,6 +528,8 @@ section.blog .card-wrapper .card .card-content p {
 
 section.blog .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
 }
 
 section.contact {
@@ -1288,10 +1265,14 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .contact-us .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .contact-us .title h2 {
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.contact-us .title h2 span {
+  color: var(--primary);
 }
 
 .form {
@@ -1468,8 +1449,12 @@ section.mission-stmt .card-wrapper .card p {
 .videos-gallery h1 {
   padding: 20px 0;
   color: var(--secondary);
-  font-size: 44px;
+  font-size: 2rem;
   text-align: center;
+}
+
+.videos-gallery h1 span {
+  color: var(--primary);
 }
 
 .video-row {
