@@ -1507,10 +1507,10 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .single-project {
-  background-color: var(--light);
+  background-color: var(--pure);
   position: relative;
   width: 100%;
-  padding: 40px 100px;
+  padding: 20px 70px;
 }
 
 .project-content {
@@ -1523,9 +1523,9 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .project {
-  padding: 40px;
+  padding: 10px;
   background: var(--pure);
-  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15); */
 }
 
 .project-box {
@@ -1538,7 +1538,7 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .project h1 {
-  color: var(--dark);
+  color: var(--secondary);
   font-weight: 600;
   font-size: 2.2rem;
   margin-top: 10px;
@@ -1546,14 +1546,15 @@ section.mission-stmt .card-wrapper .card p {
 }
 
 .project h2 {
-  color: var(--dark);
+  color: var(--secondary);
   font-weight: 600;
   font-size: 1.5rem;
   margin-top: 10px;
+  line-height: 4rem;
 }
 
 .project h3 {
-  color: var(--dark);
+  color: var(--secondary);
   font-weight: bold;
   font-size: 1.1rem;
   margin-top: 10px;
@@ -1562,10 +1563,10 @@ section.mission-stmt .card-wrapper .card p {
 
 .project-content p {
   color: var(--dark);
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-weight: 300;
   letter-spacing: normal;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .project-content a {
