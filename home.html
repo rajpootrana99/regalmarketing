@@ -25,8 +25,8 @@
     <script src="https://kit.fontawesome.com/2e2b578872.js"></script>
   </head>
   <body>
-    <header>
-      <div class="carousel-container">
+    <header style="background-image: url('images/new-header-2.png')">
+      <!-- <div class="carousel-container">
         <div class="carousel">
           <div class="item main">
             <img src="images/new-header.jpg" alt="mountain" width="100%" />
@@ -39,15 +39,15 @@
           <div class="prev nav-btn"><</div>
           <div class="next nav-btn">></div>
         </div>
-      </div>
-      <nav id="navbar">
+      </div> -->
+      <nav class="sticky">
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
           <i class="fas fa-bars" onclick="showMenu()"></i>
         </label>
         <a href="home.html">
           <img
-            src="images/logo-secondary.png"
+            src="images/logo.png"
             id="logo"
             class="logo"
             data-aos="zoom-out"
@@ -103,14 +103,10 @@
         </ul>
       </nav>
       <div class="search">
-        <h1 data-aos="fade-up">Find your new investment</h1>
-        <form data-aos="zoom-in">
-          <input
-            type="text"
-            placeholder="&#x270e; Enter Society or Services Name"
-          />
-          <i class="fas fa-search"></i>
-        </form>
+        <h1>Regal Marketing</h1>
+        <p>
+          Here you go We are deals in all Society you can find all societies
+        </p>
       </div>
     </header>
 
@@ -199,10 +195,8 @@
     <!-- Our Product Section -->
     <section class="products">
       <div class="container">
-        <h1 class="section-heading" data-aos="fade-up">
-          <span>Featured</span> Products
-        </h1>
-        <p data-aos="fade-up">
+        <h1 class="section-heading"><span>Featured</span> Products</h1>
+        <p>
           Standing close to our Customers, as we are ready to serve you with
           improved Solutions
         </p>
@@ -212,16 +206,16 @@
             data-aos="zoom-in"
             onclick="location.href='projects/regal-emporium.html'"
           >
-            <h2 data-aos="fade-up">Regal Emporium</h2>
-            <p data-aos="fade-up">
+            <h2>Regal Emporium</h2>
+            <p>
               Regal Emporium Located in the heart of Islamabad, Regal Emporium
               is one of the absolute and extravagant commercial projects in the
               commercial downtown of Park View City Islamabad.
             </p>
           </div>
           <div class="card" data-aos="zoom-in">
-            <h2 data-aos="fade-up">Construction Solutions</h2>
-            <p data-aos="fade-up">
+            <h2>Construction Solutions</h2>
+            <p>
               Trade your assets with us. You might be able to build a larger and
               more valuable property than you could have on each parcel
               separately.
@@ -243,7 +237,9 @@
         </p>
         <div class="card-wrapper">
           <div class="card" data-aos="zoom-in">
-            <div class="service-img"></div>
+            <div class="service-img">
+              <i class="fab fa-whatsapp"></i>
+            </div>
             <!-- <img src="images/asset-management.png" alt="" data-aos="ease-out" /> -->
             <h2>Asset Management</h2>
             <p>
@@ -253,7 +249,9 @@
             </p>
           </div>
           <div class="card" data-aos="zoom-in">
-            <div class="service-img"></div>
+            <div class="service-img">
+              <i class="fab fa-whatsapp"></i>
+            </div>
             <!-- <img
               src="images/merge-your-property.png"
               alt=""
@@ -267,7 +265,9 @@
             </p>
           </div>
           <div class="card" data-aos="zoom-in">
-            <div class="service-img"></div>
+            <div class="service-img">
+              <i class="fab fa-whatsapp"></i>
+            </div>
             <!-- <img src="images/expert-opinions.png" alt="" data-aos="ease-out" /> -->
             <h2>Expert Opinions</h2>
             <p>
@@ -486,10 +486,8 @@
 
     <section class="contact">
       <div class="container">
-        <h1 class="section-heading" data-aos="fade-up">
-          <span>Contact</span> Us
-        </h1>
-        <p data-aos="fade-up">Feel Free to Reach Out or Contact Us</p>
+        <h1 class="section-heading"><span>Contact</span> Us</h1>
+        <p>Feel Free to Reach Out or Contact Us</p>
         <div class="content">
           <div class="contactInfo">
             <div class="box">
@@ -510,7 +508,7 @@
               </div>
               <div class="text">
                 <h3>Phone</h3>
-                <p>+92-334-9000007</p>
+                <p>+92-334 9000007</p>
               </div>
             </div>
             <div class="box">
@@ -554,63 +552,55 @@
     <footer>
       <div class="row">
         <div class="col">
-          <img
-            src="images/footer-logo.png"
-            class="footer-logo"
-            data-aos="fade-up"
-          />
-          <p data-aos="fade-up">
+          <img src="images/footer-logo.png" class="footer-logo" />
+          <p>
             Group of expert investment advisors, consultants and sales
             executives insuring profit and leagal compliance.
           </p>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Office
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
-          <p data-aos="fade-up">1st Floor, Zamzam Arcade, Plaza 1-A</p>
-          <p data-aos="fade-up">Street # 39, Alia Market, G-13/2, Islamabad</p>
-          <p class="email-id" data-aos="fade-up">info@regalmarketing.com.pk</p>
-          <h4 data-aos="fade-up">+92 - 334 9000007</h4>
+          <p>1st Floor, Zamzam Arcade, Plaza 1-A</p>
+          <p>Street # 39, Alia Market, G-13/2, Islamabad</p>
+          <p class="email-id">info@regalmarketing.com.pk</p>
+          <h4>+92 - 334 9000007</h4>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Links
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
           <ul>
-            <li data-aos="fade-up"><a href="home.html">Home</a></li>
-            <li data-aos="fade-up"><a href="about.html">About</a></li>
-            <li data-aos="fade-up"><a href="projects.html">Projects</a></li>
-            <li data-aos="fade-up">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li>
               <a href="product&services.html">Products & Services</a>
             </li>
-            <li data-aos="fade-up">
+            <li>
               <a href="business-insights.html">Business Insights</a>
             </li>
-            <li data-aos="fade-up"><a href="videos.html">Videos</a></li>
-            <li data-aos="fade-up"><a href="">Careers</a></li>
-            <li data-aos="fade-up"><a href="contact.html">Contact</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Newsletter
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
-          <form class="footer-form" data-aos="zoom-in">
-            <i class="far fa-envelope" data-aos="fade-right"></i>
-            <input
-              type="email"
-              placeholder="Enter you email"
-              data-aos="fade-up"
-            />
+          <form class="footer-form">
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter you email" />
             <button type="submit">
-              <i class="fas fa-arrow-right" data-aos="fade-left"></i>
+              <i class="fas fa-arrow-right"></i>
             </button>
           </form>
-          <div class="social-icons" data-aos="fade-up">
+          <div class="social-icons">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-whatsapp"></i>
@@ -618,8 +608,8 @@
           </div>
         </div>
       </div>
-      <hr data-aos="zoom-in" data-aos-offset="40" />
-      <p class="copyright" data-aos="zoom-in" data-aos-offset="50">
+      <hr />
+      <p class="copyright">
         Copyright © 2022 Regal Marketing Pvt. Ltd | Powered by Regal Marketing
         Pvt. Ltd
       </p>
