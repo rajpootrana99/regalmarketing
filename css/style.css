@@ -232,7 +232,7 @@ nav.sticky {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom-right-radius: 125px;
+  /* border-bottom-right-radius: 125px; */
   z-index: 1;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -403,7 +403,7 @@ section.services .card-wrapper {
 }
 
 section.services .card-wrapper .card {
-  background: var(--premium);
+  background: var(--base);
   padding: 3rem 2rem;
   position: relative;
   padding-top: 5rem;
@@ -428,30 +428,30 @@ section.services .card-wrapper .card .service-img {
 }
 
 section.services .card-wrapper .card h2 {
-  font-weight: 600;
-  font-size: 1.3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: var(--dark);
+  color: var(--primary);
   letter-spacing: normal;
 }
 
 section.services .card-wrapper .card p {
   font-family: "Lato", sans-serif;
-  color: var(--dark);
+  color: var(--pure);
   line-height: 1.6;
-  letter-spacing: normal;
+  letter-spacing: 0.6pt;
   font-size: 1.1rem;
 }
 
 section.services .card-wrapper .card:hover {
-  background: var(--base);
+  background: var(--primary);
 }
 
 section.services .card-wrapper .card:hover h2 {
-  color: var(--primary);
+  color: var(--dark);
 }
 section.services .card-wrapper .card:hover p {
-  color: var(--pure);
+  color: var(--dark);
 }
 
 section.about .about-me-img {
@@ -553,7 +553,7 @@ section.blog .card-wrapper .card .card-content a.read-more {
 
 section.contact {
   position: relative;
-  background-color: var(--dark);
+  background-color: var(--base);
   padding: 50px 100px;
   /* display: flex; */
   justify-content: center;
@@ -562,6 +562,9 @@ section.contact {
 }
 
 section.contact .section-heading {
+  color: var(--pure);
+}
+section.contact .section-heading + p {
   color: var(--pure);
 }
 
@@ -969,7 +972,7 @@ footer {
   color: var(--pure);
   padding-top: 70px;
   padding-bottom: 30px;
-  border-top-left-radius: 125px;
+  /* border-top-left-radius: 125px; */
   font-size: 13px;
   line-height: 20px;
 }
