@@ -397,7 +397,14 @@ section.products .card-wrapper .card:hover p {
 }
 
 section.services {
-  background: var(--light);
+  background: var(--core);
+}
+
+section.services .section-heading {
+  color: var(--pure);
+}
+section.services .section-heading + p {
+  color: var(--pure);
 }
 
 section.services .card-wrapper {
@@ -409,7 +416,7 @@ section.services .card-wrapper {
 }
 
 section.services .card-wrapper .card {
-  background: var(--base);
+  background: var(--pure);
   padding: 3rem 2rem;
   position: relative;
   padding-top: 5rem;
@@ -448,9 +455,9 @@ section.services .card-wrapper .card h2 {
 
 section.services .card-wrapper .card p {
   font-family: "Lato", sans-serif;
-  color: var(--pure);
-  line-height: 1.6;
-  letter-spacing: 0.6pt;
+  color: var(--dark);
+  line-height: 1.5;
+  letter-spacing: 0.3pt;
   font-size: 1.1rem;
 }
 
@@ -500,7 +507,7 @@ section.about .news-body {
 }
 
 section.blog {
-  background: var(--core);
+  background: var(--base);
   padding-bottom: 6rem;
 }
 
