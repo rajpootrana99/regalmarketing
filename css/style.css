@@ -420,7 +420,7 @@ section.services .card-wrapper .card .service-img {
   width: 100px;
   height: 100px;
   padding: 60px;
-  background-color: var(--dark);
+  background-color: var(--primary);
   position: absolute;
   top: -3.5rem;
   left: 50%;
@@ -445,6 +445,10 @@ section.services .card-wrapper .card p {
 
 section.services .card-wrapper .card:hover {
   background: var(--primary);
+}
+
+section.services .card-wrapper .card:hover .service-img {
+  background: var(--base);
 }
 
 section.services .card-wrapper .card:hover h2 {
