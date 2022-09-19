@@ -262,22 +262,6 @@ nav.sticky .logo {
   margin: 0 auto;
 }
 
-.about-us {
-  position: absolute;
-  left: 50%;
-  top: 55%;
-  width: 90%;
-  max-width: 900px;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: var(--pure);
-}
-
-.about-us h1 {
-  font-size: 3rem;
-  font-weight: 500;
-}
-
 section {
   padding: 4rem 2rem;
 }
@@ -466,7 +450,10 @@ section.services .card-wrapper .card:hover {
 }
 
 section.services .card-wrapper .card:hover .service-img {
-  background: var(--base);
+  background: var(--pure);
+}
+section.services .card-wrapper .card:hover .service-img .fab {
+  color: var(--primary);
 }
 
 section.services .card-wrapper .card:hover h2 {
@@ -476,34 +463,66 @@ section.services .card-wrapper .card:hover p {
   color: var(--dark);
 }
 
-section.about .about-me-img {
-  height: 520px;
-  width: 650px;
-  margin-right: 30px;
+section.about {
+  background: var(--pure);
 }
 
-section.about .news-title {
+section.about .about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1rem;
+  /* grid-row-gap: 6rem; */
+}
+
+section.about .about-container .about-img {
+  max-width: 100%;
+  background: var(--pure);
+  /* padding: 3rem 2rem; */
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+section.about .about-container .about-img img {
+  width: 100%;
+}
+
+section.about .about-container .about-text {
+  background: var(--pure);
+  padding: 0 1rem;
+  position: relative;
+  /* padding-top: 5rem; */
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+section.about .about-container .about-text h1 {
   margin-bottom: 1rem;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
-section.about .news-title span {
-  color: var(--primary);
-}
-
-section.about h3 {
+section.about .about-container .about-text h3 {
   color: #ff0000;
   font-size: 1rem;
   margin-bottom: 1rem;
   font-weight: 400;
 }
 
-section.about .news-body {
+section.about .about-container .about-text p {
   font-family: "Lato", sans-serif;
   color: var(--ternary);
   line-height: 1.9;
   margin-bottom: 2rem;
+  font-size: 18px;
 }
 
 section.blog {
@@ -1756,7 +1775,7 @@ section.mission-stmt .card-wrapper .card p {
     opacity: var(--li_opacity) !important;
     width: 100% !important;
     max-height: 100vh;
-    background: var(--dark) !important;
+    background: var(--base) !important;
     top: 80px;
     left: 0 !important;
     text-align: center;
@@ -1838,10 +1857,8 @@ section.mission-stmt .card-wrapper .card p {
     margin-top: 30px;
   }
 
-  section.about .about-me-img {
-    width: 400px;
-    height: auto;
-    margin-right: 0px;
+  section.about .about-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .section-heading + p {
