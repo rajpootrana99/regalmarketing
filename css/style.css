@@ -857,6 +857,7 @@ section.blog-grid .card-wrapper {
 
 section.blog-grid .card-wrapper .card {
   background: var(--pure);
+  cursor: pointer;
 }
 
 section.blog-grid .card-wrapper .card .img-wrapper img {
