@@ -25,25 +25,26 @@
     <script src="https://kit.fontawesome.com/2e2b578872.js"></script>
   </head>
   <body>
-    <header style="background-image: url('images/about.png'); height: 600px">
-      <nav id="navbar">
+    <header style="background-image: url('images/new-header-2.png')">
+      <nav class="sticky">
         <input type="checkbox" id="check" />
         <label for="check" class="checkbtn">
           <i class="fas fa-bars" onclick="showMenu()"></i>
         </label>
-        <a href="home.html"
-          ><img
-            src="images/logo-secondary.png"
+        <a href="home.html">
+          <img
+            src="images/logo.png"
             id="logo"
             class="logo"
             data-aos="zoom-out"
-        /></a>
+          />
+        </a>
         <ul id="menu">
           <li data-aos="zoom-out">
             <a href="about.html">About Us</a>
           </li>
           <li data-aos="zoom-out">
-            <a href="projects.html">Projects</a>
+            <a href="projects.html" style="color: #f9ae41">Projects</a>
             <i
               class="fa fa-angle-down"
               style="margin: 5px; cursor: pointer"
@@ -86,63 +87,137 @@
           </li>
           <li data-aos="zoom-out"><a href="videos.html">Videos</a></li>
           <li data-aos="zoom-out"><a href="">Careers</a></li>
-          <li data-aos="zoom-out"><a href="contact.html">Contact</a></li>
+          <li data-aos="zoom-out">
+            <a href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
-      <div class="about-us">
-        <h1 data-aos="fade-up">Projects</h1>
+      <div class="search">
+        <h1>Regal Marketing</h1>
+        <p>
+          Here you go We are deals in all Society you can find all societies
+        </p>
       </div>
     </header>
 
     <!--Our Work Section-->
     <section class="work">
       <div class="container">
-        <h1 class="section-heading" data-aos="fade-up">
-          <span>Our</span> Projects
-        </h1>
-        <p data-aos="fade-up">Ultra modern and cost effective projects</p>
+        <h1 class="section-heading"><span>Our</span> Projects</h1>
+        <p>Ultra modern and cost effective projects</p>
         <div class="card-wrapper">
-          <div class="card" data-aos="zoom-in">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/rudn-enclave-islamabad.html'"
+          >
             <div class="overlay">
-              <span>Regal Emporium</span>
-              <a href="#">Park View City Islamabad</a>
+              <span>Rudn Enclave</span>
+              <a href="projects/silver-city-islamabad.html">Islamabad</a>
             </div>
-            <img src="images/featured-product-1.jpg" alt="" />
+            <img src="images/project/thumbnail/rudn-enclave.jpg" alt="" />
           </div>
-          <div class="card" data-aos="zoom-in">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/silver-city-islamabad.html'"
+          >
             <div class="overlay">
-              <span>Blue World Sports Valley</span>
-              <a href="#">Chakri Interchange Islamabad</a>
+              <span>Silver City Islamabad</span>
+              <a href="projects/silver-city-islamabad.html">Islamabad</a>
             </div>
-            <img src="images/featured-product-2.jpg" alt="" />
+            <img
+              src="images/project/thumbnail/silver-city-islamabad.jpg"
+              alt=""
+            />
           </div>
-          <div class="card" data-aos="zoom-in">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/new-metro-city-gujar-khan.html'"
+          >
+            <div class="overlay">
+              <span>Eighteen</span>
+              <a href="projects/new-metro-city.html">Islamabad</a>
+            </div>
+            <img src="images/project/thumbnail/eighteen-islamabad.jpg" alt="" />
+          </div>
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/new-metro-city-gujar-khan.html'"
+          >
             <div class="overlay">
               <span>New Metro City</span>
-              <a href="#">Gujar Khan</a>
+              <a href="projects/new-metro-city.html">Gujar Khan</a>
             </div>
-            <img src="images/featured-product-3.jpg" alt="" />
+            <img
+              src="images/project/thumbnail/new-metro-city-gujar-khan.jpg"
+              alt=""
+            />
           </div>
-          <div class="card" data-aos="zoom-in">
-            <div class="overlay">
-              <span>Regal Emporium</span>
-              <a href="#">Park View City Islamabad</a>
-            </div>
-            <img src="images/featured-product-1.jpg" alt="" />
-          </div>
-          <div class="card" data-aos="zoom-in">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/blue-world-sports-valley-islamabad.html'"
+          >
             <div class="overlay">
               <span>Blue World Sports Valley</span>
-              <a href="#">Chakri Interchange Islamabad</a>
+              <a href="projects/blue-world-sports-valley-islamabad.html"
+                >Chakri Interchange Islamabad</a
+              >
             </div>
-            <img src="images/featured-product-2.jpg" alt="" />
+            <img
+              src="images/project/thumbnail/blue-world-sports-valley.jpg"
+              alt=""
+            />
           </div>
-          <div class="card" data-aos="zoom-in">
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/blue-world-sports-valley-islamabad.html'"
+          >
             <div class="overlay">
-              <span>New Metro City</span>
-              <a href="#">Gujar Khan</a>
+              <span>Blue World Water Front District</span>
+              <a href="#">Islamabad</a>
             </div>
-            <img src="images/featured-product-3.jpg" alt="" />
+            <img
+              src="images/project/thumbnail/blue-world-water-front-district.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/kingdom-valley-islamabad.html'"
+          >
+            <div class="overlay">
+              <span>Kingdom Valley</span>
+              <a href="#">Islamabad</a>
+            </div>
+            <img src="images/project/thumbnail/kingdom-valley.jpg" alt="" />
+          </div>
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/blue-world-sports-valley-islamabad.html'"
+          >
+            <div class="overlay">
+              <span>Discovery Garden Islamabad</span>
+              <a href="#">Islamabad</a>
+            </div>
+            <img src="images/project/thumbnail/discovery-garden.jpg" alt="" />
+          </div>
+          <div
+            class="card"
+            data-aos="zoom-in"
+            onclick="location.href='projects/blue-world-sports-valley-islamabad.html'"
+          >
+            <div class="overlay">
+              <span>Park View City</span>
+              <a href="#">Islamabad</a>
+            </div>
+            <img src="images/project/thumbnail/park-view-city.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -151,63 +226,55 @@
     <footer>
       <div class="row">
         <div class="col">
-          <img
-            src="images/footer-logo.png"
-            class="footer-logo"
-            data-aos="fade-up"
-          />
-          <p data-aos="fade-up">
+          <img src="images/footer-logo.png" class="footer-logo" />
+          <p>
             Group of expert investment advisors, consultants and sales
             executives insuring profit and leagal compliance.
           </p>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Office
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
-          <p data-aos="fade-up">1st Floor, Zamzam Arcade, Plaza 1-A</p>
-          <p data-aos="fade-up">Street # 39, Alia Market, G-13/2, Islamabad</p>
-          <p class="email-id" data-aos="fade-up">info@regalmarketing.com.pk</p>
-          <h4 data-aos="fade-up">+92 - 334 9000007</h4>
+          <p>1st Floor, Zamzam Arcade, Plaza 1-A</p>
+          <p>Street # 39, Alia Market, G-13/2, Islamabad</p>
+          <p class="email-id">info@regalmarketing.com.pk</p>
+          <h4>+92 - 334 9000007</h4>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Links
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
           <ul>
-            <li data-aos="fade-up"><a href="home.html">Home</a></li>
-            <li data-aos="fade-up"><a href="about.html">About</a></li>
-            <li data-aos="fade-up"><a href="projects.html">Projects</a></li>
-            <li data-aos="fade-up">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li>
               <a href="product&services.html">Products & Services</a>
             </li>
-            <li data-aos="fade-up">
+            <li>
               <a href="business-insights.html">Business Insights</a>
             </li>
-            <li data-aos="fade-up"><a href="videos.html">Videos</a></li>
-            <li data-aos="fade-up"><a href="">Careers</a></li>
-            <li data-aos="fade-up"><a href="contact.html">Contact</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="col">
-          <h3 data-aos="fade-up">
+          <h3>
             Newsletter
-            <div class="underline" data-aos="fade-up"><span></span></div>
+            <div class="underline"><span></span></div>
           </h3>
-          <form class="footer-form" data-aos="zoom-in">
-            <i class="far fa-envelope" data-aos="fade-right"></i>
-            <input
-              type="email"
-              placeholder="Enter you email"
-              data-aos="fade-up"
-            />
+          <form class="footer-form">
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter you email" />
             <button type="submit">
-              <i class="fas fa-arrow-right" data-aos="fade-left"></i>
+              <i class="fas fa-arrow-right"></i>
             </button>
           </form>
-          <div class="social-icons" data-aos="fade-up">
+          <div class="social-icons">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-whatsapp"></i>
@@ -215,8 +282,8 @@
           </div>
         </div>
       </div>
-      <hr data-aos="zoom-in" data-aos-offset="40" />
-      <p class="copyright" data-aos="zoom-in" data-aos-offset="50">
+      <hr />
+      <p class="copyright">
         Copyright © 2022 Regal Marketing Pvt. Ltd | Powered by Regal Marketing
         Pvt. Ltd
       </p>

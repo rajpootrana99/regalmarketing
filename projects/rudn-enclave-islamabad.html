@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Regal Marketing | Rudn Enclave</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/2e2b578872.js"></script>
+  </head>
+  <body>
+    <header
+      style="
+        background-image: url('../images/project/thumbnail/rudn-enclave.jpg');
+      "
+    >
+      <nav class="sticky">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </label>
+        <a href="../home.html">
+          <img
+            src="../images/logo.png"
+            id="logo"
+            class="logo"
+            data-aos="zoom-out"
+          />
+        </a>
+        <ul id="menu">
+          <li data-aos="zoom-out">
+            <a href="../about.html">About Us</a>
+          </li>
+          <li data-aos="zoom-out">
+            <a href="../projects.html" style="color: #f9ae41">Projects</a>
+            <i
+              class="fa fa-angle-down"
+              style="margin: 5px; cursor: pointer"
+              onclick="toggleMenu()"
+            ></i>
+          </li>
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+              <a href="#" class="sub-menu-link">
+                <p>Eighteen</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>New Metro City Gujar Khan</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Blue World City Sports Valley</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Blue World Water Front District</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Park View City Islamabad</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Kingdom Valley</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>Discovery Garden</p>
+              </a>
+              <a href="#" class="sub-menu-link">
+                <p>1947 Housing</p>
+              </a>
+            </div>
+          </div>
+          <li data-aos="zoom-out">
+            <a href="../products&services.html">Products & Services</a>
+          </li>
+          <li data-aos="zoom-out">
+            <a href="../business-insights.html">Business Insights</a>
+          </li>
+          <li data-aos="zoom-out">
+            <a href="../videos.html">Videos</a>
+          </li>
+          <li data-aos="zoom-out"><a href="">Careers</a></li>
+          <li data-aos="zoom-out">
+            <a href="../contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="single-project">
+      <div class="project-box">
+        <div class="project project-content">
+          <h2>Coming Soon...</h2>
+        </div>
+        <div class="project project-inquiry">
+          <h3>Project Inquiry</h3>
+          <form action="">
+            <div class="form-box">
+              <div class="row100">
+                <div class="inquiry-box">
+                  <span>Name</span>
+                  <input type="text" placeholder="John Doe" name="" id="" />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inquiry-box">
+                  <span>Email</span>
+                  <input
+                    type="text"
+                    placeholder="example@gmail.com"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inquiry-box">
+                  <span>Phone Number</span>
+                  <input
+                    type="text"
+                    placeholder="+92-334 9000007"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inquiry-box">
+                  <span>Message</span>
+                  <textarea
+                    placeholder="Write your message here... "
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inquiry-box">
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <img src="../images/footer-logo.png" class="footer-logo" />
+          <p>
+            Group of expert investment advisors, consultants and sales
+            executives insuring profit and leagal compliance.
+          </p>
+        </div>
+        <div class="col">
+          <h3>
+            Office
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>1st Floor, Zamzam Arcade, Plaza 1-A</p>
+          <p>Street # 39, Alia Market, G-13/2, Islamabad</p>
+          <p class="email-id">info@regalmarketing.com.pk</p>
+          <h4>+92 - 334 9000007</h4>
+        </div>
+        <div class="col">
+          <h3>
+            Links
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li><a href="../home.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li>
+              <a href="../projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="../products&services.html">Products & Services</a>
+            </li>
+            <li>
+              <a href="../business-insights.html">Business Insights</a>
+            </li>
+            <li><a href="../videos.html">Videos</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>
+            Newsletter
+            <div class="underline"><span></span></div>
+          </h3>
+          <form class="footer-form">
+            <i class="far fa-envelope"></i>
+            <input type="email" placeholder="Enter you email" />
+            <button type="submit">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </form>
+          <div class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">
+        Copyright © 2022 Regal Marketing Pvt. Ltd | Powered by Regal Marketing
+        Pvt. Ltd
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1000,
+        easing: "ease",
+      });
+    </script>
+
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="../js/slider.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

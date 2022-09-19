@@ -47,14 +47,14 @@ function showReview() {
   userTexts[i].classList.add("active-text");
 }
 
-window.onscroll = function () {
-  if (window.pageYOffset >= menu.offsetTop) {
-    navbar.classList.add("sticky");
-    checkbtn.style.marginRight = "40px";
-    logo.src = "images/logo.png";
-  } else {
-    navbar.classList.remove("sticky");
-    checkbtn.style.marginRight = "0px";
-    logo.src = "images/logo-secondary.png";
-  }
-};
+// window.onscroll = function () {
+//   if (window.pageYOffset >= menu.offsetTop) {
+//     navbar.classList.add("sticky");
+//     checkbtn.style.marginRight = "40px";
+//     logo.src = "images/logo.png";
+//   } else {
+//     navbar.classList.remove("sticky");
+//     checkbtn.style.marginRight = "0px";
+//     logo.src = "images/logo-secondary.png";
+//   }
+// };

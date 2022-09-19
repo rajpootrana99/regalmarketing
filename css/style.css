@@ -5,7 +5,7 @@
   --premium: #7acef3;
   --card: #ec4912;
   --core: #c22216;
-  --primary: #fbb040;
+  --primary: #dea337;
   --dark: #161616;
   --pure: #ffffff;
   --ternary: #898989;
@@ -28,7 +28,7 @@ body {
 header {
   width: 100%;
   height: 80vh;
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
 }
 
@@ -1159,7 +1159,7 @@ section.our-team .container {
   cursor: pointer;
   transition: 0.4s;
   box-sizing: border-box;
-  background: var(--light);
+  background: var(--primary);
   border-radius: 10px;
 }
 
@@ -1172,6 +1172,7 @@ section.our-team .container {
   font-weight: bold;
   font-size: 16px;
   text-transform: uppercase;
+  color: var(--secondary);
 }
 
 .team .desig {
@@ -1216,10 +1217,13 @@ section.ceo-msg .card-wrapper {
 }
 
 section.ceo-msg .card-wrapper .card {
-  background: var(--pure);
+  background: var(--dark);
 }
 
 section.ceo-msg .card-wrapper .card .img-wrapper img {
+  /* display: inline-block; */
+  height: 100%;
+  vertical-align: middle;
   width: 100%;
 }
 
@@ -1230,29 +1234,31 @@ section.ceo-msg .card-wrapper .card .card-content {
 }
 
 section.ceo-msg .card-wrapper .card .card-content h1 {
+  color: var(--pure);
   font-size: 1rem;
   font-weight: 600;
 }
 
 section.ceo-msg .card-wrapper .card .card-content a {
-  color: var(--secondary);
+  color: var(--pure);
   text-decoration: none;
 }
 
-section.ceo-msg .card-wrapper .card .card-content a:hover {
+section.ceo-msg .card-wrapper .card .card-content h1:hover {
   color: var(--primary);
 }
 
 section.ceo-msg .card-wrapper .card .card-content span {
-  color: var(--ternary);
+  color: var(--pure);
   font-size: 0.8rem;
 }
 
 section.ceo-msg .card-wrapper .card .card-content p {
   font-family: "Lato", sans-serif;
-  color: var(--ternary);
+  color: var(--light);
   margin-top: 1rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.5pt;
 }
 
 section.ceo-msg .card-wrapper .card .card-content a.read-more {
